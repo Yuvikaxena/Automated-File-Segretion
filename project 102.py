@@ -21,6 +21,7 @@ for i in list_of_files:
         print("path3",path3)
 
        if os.path.exists(path2):
+        
         print("Moving" + file_name + ".....")
         shutil.move(path1,path3)
       else:
